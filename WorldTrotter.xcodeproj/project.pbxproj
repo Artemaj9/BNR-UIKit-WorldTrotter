@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		AC4F52452A7ABC26002F6821 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4F52442A7ABC26002F6821 /* AppDelegate.swift */; };
 		AC4F52472A7ABC26002F6821 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4F52462A7ABC26002F6821 /* SceneDelegate.swift */; };
-		AC4F52492A7ABC26002F6821 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4F52482A7ABC26002F6821 /* ViewController.swift */; };
+		AC4F52492A7ABC26002F6821 /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4F52482A7ABC26002F6821 /* ConversionViewController.swift */; };
 		AC4F524C2A7ABC26002F6821 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC4F524A2A7ABC26002F6821 /* Main.storyboard */; };
 		AC4F524E2A7ABC27002F6821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC4F524D2A7ABC27002F6821 /* Assets.xcassets */; };
 		AC4F52512A7ABC27002F6821 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC4F524F2A7ABC27002F6821 /* LaunchScreen.storyboard */; };
+		AC4F52592A7C39FA002F6821 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4F52582A7C39FA002F6821 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AC4F52412A7ABC26002F6821 /* WorldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTrotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC4F52442A7ABC26002F6821 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC4F52462A7ABC26002F6821 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AC4F52482A7ABC26002F6821 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC4F52482A7ABC26002F6821 /* ConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
 		AC4F524B2A7ABC26002F6821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC4F524D2A7ABC27002F6821 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC4F52502A7ABC27002F6821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC4F52522A7ABC27002F6821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC4F52582A7C39FA002F6821 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				AC4F52442A7ABC26002F6821 /* AppDelegate.swift */,
 				AC4F52462A7ABC26002F6821 /* SceneDelegate.swift */,
-				AC4F52482A7ABC26002F6821 /* ViewController.swift */,
+				AC4F52482A7ABC26002F6821 /* ConversionViewController.swift */,
 				AC4F524A2A7ABC26002F6821 /* Main.storyboard */,
+				AC4F52582A7C39FA002F6821 /* MapViewController.swift */,
 				AC4F524D2A7ABC27002F6821 /* Assets.xcassets */,
 				AC4F524F2A7ABC27002F6821 /* LaunchScreen.storyboard */,
 				AC4F52522A7ABC27002F6821 /* Info.plist */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC4F52492A7ABC26002F6821 /* ViewController.swift in Sources */,
+				AC4F52492A7ABC26002F6821 /* ConversionViewController.swift in Sources */,
 				AC4F52452A7ABC26002F6821 /* AppDelegate.swift in Sources */,
 				AC4F52472A7ABC26002F6821 /* SceneDelegate.swift in Sources */,
+				AC4F52592A7C39FA002F6821 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
